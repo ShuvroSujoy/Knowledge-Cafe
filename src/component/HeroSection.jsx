@@ -29,8 +29,8 @@ const timeHandler =(time)=>{
 
 }
     return (
-        <div className='mt-8 md:flex md:mx-40  gap-6'>
-            <div>
+        <div className='mt-8 md:flex md:mx-40  gap-6 p-2'>
+            <div >
                 {
                    products.map(product => <Product
                    key={product.id}

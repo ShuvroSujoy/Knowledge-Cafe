@@ -2,7 +2,7 @@
 
 const Bookmark = ({bookmark,bookTime}) => {
     return (
-        <div className='w-[411px]'>     
+        <div className='lg:w-[411px] sticky top-0'>     
             <h2 className='text-2xl font-bold text-[#6047EC] bg-gray-200 py-5 px-12 
             rounded-lg'>Spent time on read : {bookTime} </h2>
             <div className='bg-gray-200 px-9 mt-6 py-7 rounded-lg'>

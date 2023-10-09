@@ -1,3 +1,4 @@
+import { Typewriter } from 'react-simple-typewriter';
 import './App.css'
 import Header from './component/Header'
 import HeroSection from './component/HeroSection'
@@ -10,6 +11,12 @@ function App() {
       <ToastContainer />
       <Header/>
       <HeroSection/>
+      <h1 className='text-center'>I am a  <Typewriter 
+      words={['Developer', 'React-Developer','Free Fire Gammer',]} 
+      loop={10}
+      cursor
+      cursorStyle='_'  />
+      </h1>
     </div>
   )
 }
